@@ -4,12 +4,12 @@
 
 ## Возможности
 
-- ✅ POST /api/comments — создание комментария (с указанием родительского)
-- ✅ GET /api/comments?parent={id} — получение комментария и всех вложенных
-- ✅ DELETE /api/comments/{id} — удаление комментария и всех вложенных
-- ✅ Постраничная навигация (limit, offset)
-- ✅ Полнотекстовый поиск (POST /api/comments/search)
-- ✅ Web-интерфейс (HTML + JS)
+- POST /api/comments — создание комментария (с указанием родительского)
+- GET /api/comments?parent={id} — получение комментария и всех вложенных
+- DELETE /api/comments/{id} — удаление комментария и всех вложенных
+- Постраничная навигация (limit, offset)
+- Полнотекстовый поиск (POST /api/comments/search)
+- Web-интерфейс (HTML + JS)
 
 ## Миграции
 
